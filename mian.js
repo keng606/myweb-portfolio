@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function() {
     let currentSlide = 0;
     const slideCount = 10; 
     
-    function updateSlider() {
+    function updateSlider   () {
         slides.style.transform = `translateX(-${currentSlide * 10}%)`;
         dots.forEach((dot, index) => {
             if (index === currentSlide) {
